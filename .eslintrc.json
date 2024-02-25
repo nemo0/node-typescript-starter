@@ -1,9 +1,6 @@
 {
-  "extends": ["eslint:recommended"],
-  "parserOptions": {
-    "ecmaVersion": 2021
-  },
-  "rules": {
-    // Your custom rules here
-  }
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "parserOptions": { "ecmaVersion": 2021, "sourceType": "module" },
+  "rules": {}
 }
